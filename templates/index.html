@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ app_name }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f3f6fb; margin: 0; }
+    main { max-width: 680px; margin: 12vh auto; padding: 36px; background: white;
+           border-radius: 14px; box-shadow: 0 8px 28px #17255418; text-align: center; }
+    h1 { color: #183153; } p { color: #526174; line-height: 1.6; }
+    code { background: #eef2ff; padding: 4px 8px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Welcome to {{ app_name }}!</h1>
+    <p>Your Flask application is running inside a Docker container.</p>
+    <p>Health endpoint: <code>/health</code></p>
+  </main>
+</body>
+</html>
